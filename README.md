@@ -29,6 +29,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup Rokit
-        uses: ggshor/setup-rokit@1
+        uses: GGshor/setup-rokit@0.0.1
         with:
           version: 1.0.0
