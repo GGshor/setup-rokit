@@ -1,6 +1,6 @@
 name: setup-rokit
 description: GitHub action to install and run Rokit; a tool for Roblox project automation.
-author: your-username
+author: GGshor
 
 inputs:
   version:
