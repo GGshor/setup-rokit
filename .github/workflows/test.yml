@@ -1,3 +1,5 @@
+name: Test action
+
 on:
     workflow_call:
       inputs:
@@ -14,7 +16,7 @@ on:
           required: false
 
 jobs:
-    test-env:
+    test:
       strategy:
         matrix:
           os: [ubuntu-latest, macos-latest, windows-latest]
