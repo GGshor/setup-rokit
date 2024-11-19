@@ -1,6 +1,13 @@
 name: Test action
 
 on:
+    push:
+        paths:
+          - "action.yml"
+    pull_request:
+        paths:
+          - "action.yml"
+
     workflow_call:
       inputs:
         version:
