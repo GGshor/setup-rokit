@@ -1,6 +1,7 @@
 # Setup Rokit GitHub Action
 
 A custom GitHub Action to set up and use [Rokit](https://github.com/rojo-rbx/rokit), a tool for automating workflows and tool management in Roblox projects.
+This action is based heavily on [ok-nick/setup-aftman](https://github.com/ok-nick/setup-aftman), reusing much of its structure and functionality to streamline the setup of Rokit.
 
 ## Features
 
@@ -32,3 +33,4 @@ jobs:
         uses: GGshor/setup-rokit@0.0.1
         with:
           version: 1.0.0
+```
